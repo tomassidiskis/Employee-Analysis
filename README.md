@@ -5,16 +5,17 @@
 This research project details employees for a corporation from the 1980s and 1990s using six CSV files to perform data modelling, data engineering and data analysis.
 
 ## Data Modeling
-Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like http://www.quickdatabasediagrams.com.
+Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool like
+http://www.quickdatabasediagrams.com.
 
 ![ERD_Diagram](https://user-images.githubusercontent.com/102066899/194712531-de4eecfe-32a3-4dee-909a-c14212a71fe7.png)
 
 ## Data Engineering
 1. Use the information you have to create a table schema for each of the six CSV files. Remember to specify data types, primary keys, foreign keys, and other constraints.
 
-1.2. For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
+● For the primary keys check to see if the column is unique, otherwise create a composite key. Which takes to primary keys in order to uniquely identify a row.
 
-1.3. Be sure to create tables in the correct order to handle foreign keys.
+● Be sure to create tables in the correct order to handle foreign keys.
 
 2. Import each CSV file into the corresponding SQL table. Note be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
@@ -47,7 +48,7 @@ from sqlalchemy import create_engine
 engine = create_engine('postgresql://localhost:5432/<your_db_name>')
 connection = engine.connect()
 ```
-Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/14/core/engines.html#postgresql) for more information.
+● Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/14/core/engines.html#postgresql) for more information.
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
