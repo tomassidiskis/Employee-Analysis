@@ -47,7 +47,7 @@ from sqlalchemy import create_engine
 engine = create_engine('postgresql://localhost:5432/<your_db_name>')
 connection = engine.connect()
 ```
-Consult [SQLAlchemy documentation]: https://docs.sqlalchemy.org/en/14/core/engines.html#postgresql for more information.
+Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/14/core/engines.html#postgresql) for more information.
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
