@@ -1,5 +1,5 @@
 # Employee Analysis
-![sql](https://user-images.githubusercontent.com/102066899/194712514-5fabb9df-bf85-41a9-8688-c281fda3142f.png)
+
 
 ## Background
 This research project details employees for a corporation from the 1980s and 1990s using six CSV files to perform data modelling, data engineering and data analysis.
