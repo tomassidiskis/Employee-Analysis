@@ -1,4 +1,4 @@
-# SQL Challenge - Employee Database: A Mystery in Two Parts
+# Employee Analysis
 ![sql](https://user-images.githubusercontent.com/102066899/194712514-5fabb9df-bf85-41a9-8688-c281fda3142f.png)
 
 ## Background
